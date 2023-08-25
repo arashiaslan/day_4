@@ -1,0 +1,8 @@
+# import random
+# make name file named module.py
+# import module
+# print(module.pi)
+# random_integer = random.randint(1, 10)
+# float_random = random.random() * 5
+# print(random_integer)
+# print(float_random)
