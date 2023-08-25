@@ -15,3 +15,69 @@
 # who_pay = names[choose]
 # print(who_pay + " is going to buy the meal today!")
 
+# TREASURE MAP TEST
+# row1 = ["⬜️","️⬜️","️⬜️"]
+# row2 = ["⬜️","⬜️","️⬜️"]
+# row3 = ["⬜️️","⬜️️","⬜️️"]
+# map = [row1, row2, row3]
+# print(f"{row1}\n{row2}\n{row3}")
+# position = input("Where do you want to put the treasure? ")
+
+# horizontal = int(position[0])
+# vertical = int(position[1])
+# selected_row = map[vertical - 1]
+# selected_row[horizontal - 1] = "X"
+
+# print(f"{row1}\n{row2}\n{row3}")
+
+# GUNTINGBATUKERTAS TEST
+# import random
+# rock = '''
+#     _______
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)
+# ---.__(___)
+# '''
+
+# paper = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)
+# '''
+
+# scissors = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___)
+# '''
+
+# #Write your code below this line 👇
+# list = [rock, paper, scissors]
+# you = int(input("What do u choose? Rock = 0, Paper = 1, Scissors = 2.\n"))
+# if you >= 3 or you < 0:
+#   print("Invalid numbers. You Loose.")
+# else :
+#   print(list[you])
+#   com = random.randint(0, 2)
+#   com_choose = list[com]
+#   print("Computer choose :" + com_choose)
+  
+#   if you == 0 and com == 2:
+#     print("You Win")
+#   elif com == 0 and you == 2:
+#     print("You Loose")
+#   elif com > you:
+#     print("You Loose")
+#   elif you > com:
+#     print("You Win")
+#   elif com == you:
+#     print("Draw")
+
