@@ -5,3 +5,13 @@
 #   print("Heads")
 # else :
 #   print("Tails")
+
+# WHOPAY TEST
+# import random
+# names_string = input("Give me everybody's names, separated by a comma. ")
+# names = names_string.split(", ")
+# count = len(names)
+# choose = random.randint(0, count - 1)
+# who_pay = names[choose]
+# print(who_pay + " is going to buy the meal today!")
+
