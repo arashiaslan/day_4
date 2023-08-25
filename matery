@@ -13,3 +13,9 @@
 # nama_pelajar.append("juminten")
 # nama_pelajar.extend(["cimoy", "titi", "util"])
 # print(nama_pelajar)
+
+# NESTED LIST
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+# dirty_dozen = [fruits, vegetables]
+# print(dirty_dozen[0][3])
